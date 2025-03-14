@@ -89,8 +89,8 @@ public class DayNightController : MonoBehaviour
     IEnumerator ChangeColor(Color targetColor)
     {
         isTransitioning = true;
-        InvisibleWalls[] invisibleWalls = FindObjectsOfType<InvisibleWalls>();
-        PortalController[] portals = FindObjectsOfType<PortalController>();
+        InvisibleWalls[] invisibleWalls = FindObjectsByType<InvisibleWalls>(FindObjectsSortMode.None);
+        PortalController[] portals = FindObjectsByType<PortalController>(FindObjectsSortMode.None);
         Color startColor = sunSprite.color;
         float elapsedTime = 0f;
         if (!isDay)
@@ -200,7 +200,7 @@ public class DayNightController : MonoBehaviour
     void UpdateInvisibleWallsState()
     {
 
-        InvisibleWalls[] invisibleWalls = FindObjectsOfType<InvisibleWalls>();
+        InvisibleWalls[] invisibleWalls = FindObjectsByType<InvisibleWalls>(FindObjectsSortMode.None);
         foreach (InvisibleWalls wall in invisibleWalls)
         {
             if (wall.mode == 1) 

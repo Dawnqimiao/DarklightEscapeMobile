@@ -1354,7 +1354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartDelay: 0
-  grayOut: {fileID: 311207652}
+  grayOut: {fileID: 1587840484}
 --- !u!60 &311207655
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3572,7 +3572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartDelay: 0
-  grayOut: {fileID: 799053870}
+  grayOut: {fileID: 1587840484}
 --- !u!60 &799053873
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3886,7 +3886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartDelay: 0
-  grayOut: {fileID: 847059414}
+  grayOut: {fileID: 1587840484}
 --- !u!60 &847059417
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4385,8 +4385,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5b26f36d6587543b6b5c5dd20aa9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotImageObject: {fileID: 0}
-  consumText: {fileID: 0}
+  slotImageObject: {fileID: 441755086}
+  consumText: {fileID: 1473548239}
   starCount: 0
 --- !u!114 &880532041
 MonoBehaviour:
@@ -5756,7 +5756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartDelay: 0
-  grayOut: {fileID: 1064467668}
+  grayOut: {fileID: 1587840484}
 --- !u!60 &1064467671
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7309,7 +7309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartDelay: 0
-  grayOut: {fileID: 1324928014}
+  grayOut: {fileID: 1587840484}
 --- !u!60 &1324928017
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8103,7 +8103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartDelay: 0
-  grayOut: {fileID: 1611310583}
+  grayOut: {fileID: 1587840484}
 --- !u!60 &1611310585
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8876,7 +8876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartDelay: 0
-  grayOut: {fileID: 1787430691}
+  grayOut: {fileID: 1587840484}
 --- !u!60 &1787430694
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -10311,7 +10311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartDelay: 0
-  grayOut: {fileID: 2096543207}
+  grayOut: {fileID: 1587840484}
 --- !u!60 &2096543209
 PolygonCollider2D:
   m_ObjectHideFlags: 0

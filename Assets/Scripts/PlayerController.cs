@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
 
         movement = new Vector2(mobileHorizontalInput, 0);
 
-        Debug.Log("isCeiling: " + isCeiling + ", isSmall: " + isSmall);
+        //Debug.Log("isCeiling: " + isCeiling + ", isSmall: " + isSmall);
 
         isFalling = rb.linearVelocity.y < 0;
 

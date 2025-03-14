@@ -3,9 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class LevelSelection : MonoBehaviour
 {
-    public void LoadLevel(int levelIndex)
+    public void LoadLevel(int index)
     {
-        SceneManager.LoadScene(levelIndex);
+        Debug.Log("Loading level: " + index);
+        Resources.UnloadUnusedAssets();
+        System.GC.Collect();
+        SceneManager.LoadScene(index);
     }
 }
 
