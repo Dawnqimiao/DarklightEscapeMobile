@@ -4365,13 +4365,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8f4a4a9e3b2b9f40a499e017d7bdbd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endUI: {fileID: 0}
-  menuUI: {fileID: 0}
+  endUI: {fileID: 239031820}
+  menuUI: {fileID: 1856013255}
   starTracking: {fileID: 1644628924}
-  leftStar: {fileID: 0}
-  midStar: {fileID: 0}
-  rightStar: {fileID: 0}
-  grayOut: {fileID: 0}
+  leftStar: {fileID: 1693143021}
+  midStar: {fileID: 1917687688}
+  rightStar: {fileID: 444485492}
+  grayOut: {fileID: 1492996563}
 --- !u!61 &956613914
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8848,6 +8848,7 @@ GameObject:
   - component: {fileID: 1693584144}
   - component: {fileID: 1693584143}
   - component: {fileID: 1693584142}
+  - component: {fileID: 1693584145}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -8918,7 +8919,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1693584143}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1693584145}
+        m_TargetAssemblyTypeName: Quit, Assembly-CSharp
+        m_MethodName: LoadMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1693584143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8957,6 +8970,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693584140}
   m_CullTransparentMesh: 1
+--- !u!114 &1693584145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693584140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960f1e92c51df574ea8bbda95e64a315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1694326389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9732,7 +9757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuUI: {fileID: 949622835}
-  grayOut: {fileID: 0}
+  grayOut: {fileID: 1492996563}
 --- !u!114 &1856013258
 MonoBehaviour:
   m_ObjectHideFlags: 0
