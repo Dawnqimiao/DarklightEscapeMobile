@@ -5,7 +5,10 @@ public class Quit : MonoBehaviour
 {
     public void LoadMainMenu()
     {
-        SceneManager.LoadScene("Main Menu"); 
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Main Menu");
+        Debug.Log("Quit Button Pressed");
+        Debug.Log("Time.timeScale: " + Time.timeScale);
     }
 
 }
